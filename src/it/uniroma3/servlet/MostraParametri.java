@@ -20,7 +20,7 @@ public class MostraParametri extends HttpServlet {
 		// leggo i parametri
 		String nome = request.getParameter("nome");
 		String cognome = request.getParameter("cognome");
-
+        // modifica per git
 		// leggo (alcune) intestazioni http della richiesta
 		String address = (String)request.getRemoteAddr();
 		String host = (String)request.getRemoteHost();
